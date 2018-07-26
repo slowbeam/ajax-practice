@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="root-div">
+
+      <div id="main-div">
+        <div id="tweet-form" style="float: left; width: 50%;">
+
+          <div id="twitter-title"><img src="https://imgur.com/TCgOtFn.png" height="75" width="75" alt="twitter-logo"></div>
+
+          <div id="post-form">
+            <h3> Post a Tweet: </h3>
+            <form id="post-tweet-form" class="form" action="index.html" method="post">
+              Username: <br>
+              <input id="username-input" type="text" name="username" value=""><br>
+              Tweet:<br>
+              <textarea id="tweet-input" type="text" name="tweet-content" rows="4" cols="30"></textarea><br><br>
+              <input data-action="post-tweet" type="submit" name="" value="Post Tweet">
+            </form>
+          </div>
+        </div>
+
+        <div id="all-tweets" style="float: left; width: 50%;">
+            <div id="tweets-title"><h1> tweets</h1></div>
+            <div id="tweet-list">
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <script src="adapter.js" charset="utf-8"></script>
+  </body>
+</html>

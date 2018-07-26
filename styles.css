@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-image: url("https://imgur.com/shvTPSJ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Charcoal", sans-serif;
+  color: #202bac;
+
+}
+.form {
+    display: inline-block;
+}
+
+.tweet {
+  margin: auto;
+  width: 47%;
+  height: 10%;
+  float:left;
+  background-color: #A5EDEB;
+  text-align: center;
+  margin: 3px;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #5E4BAB;
+}
+
+#tweets-title {
+  text-align: center;
+}
+
+#twitter-title {
+  text-align: center;
+}
+
+h3 {
+  padding: 5px;
+  margin: 0px;
+}
+
+#tweet-form {
+  padding-top: 90px;
+}
