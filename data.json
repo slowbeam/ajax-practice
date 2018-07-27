@@ -1,17 +1,7 @@
 {
   "tweets": [
     {
-      "body": "snort snort snort",
-      "user": "Jellybean",
-      "id": 20
-    },
-    {
-      "body": "bork bork",
-      "user": "Jellybean",
-      "id": 21
-    },
-    {
-      "body": "snort snort snort",
+      "body": "I'm a dog",
       "user": "Jellybean",
       "id": 22
     },
@@ -19,11 +9,6 @@
       "body": "heyyyy",
       "user": "jarret",
       "id": 23
-    },
-    {
-      "body": "twwet",
-      "user": "",
-      "id": 24
     },
     {
       "body": "BORK!!! BORK!!!",
@@ -34,6 +19,11 @@
       "body": "BORK BORK BORK BORK",
       "user": "Jellybean",
       "id": 26
+    },
+    {
+      "body": "ay bendito!!!",
+      "user": "Alex",
+      "id": 27
     }
   ]
 }

@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tweetAdapter.postTweet(usernameField.value, tweetField.value).then(data => {allTweetStore.push(data)}).then(resp => document.getElementById("post-tweet-form").reset()).then(generateTweets)
         break;
       case "render":
-        renderSite();
+        renderSite(mainDiv);
         break;
       case "delete-tweet":
         tweetAdapter.deleteTweet(event.target.dataset.tweetId).then((resp)=> getUrlId(resp.url)).then((tweetId)=> filterTweetArray(allTweetStore, tweetId)).then((resp)=> setAllTweetStore(resp)).then(generateTweets)
