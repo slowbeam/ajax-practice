@@ -16,7 +16,7 @@ function generateAdapter(url) {
         headers: {
           'Content-type': 'application/json'
         }
-      })
+      }).then(resp => resp.json())
     },
     deleteTweet: function(tweetId) {
       return fetch(url + "/" + tweetId, {
